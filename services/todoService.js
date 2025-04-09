@@ -1,4 +1,4 @@
-import api from "../../utils/apiClient";
+import api from "../utils/apiClient";
 
 export async function getTodos(token) {
     return await  api.get(`todos`, {

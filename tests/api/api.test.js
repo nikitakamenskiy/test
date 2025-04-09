@@ -2,7 +2,7 @@ import {expect, test} from "@playwright/test";
 import {before, describe} from "node:test";
 import api from '../../utils/apiClient';
 import {createChallenger} from "../../services/challengerService";
-import {getTodoById, getTodos} from "./todoService";
+import {getTodoById, getTodos} from "../../services/todoService";
 
 const axios = require('axios');
 
